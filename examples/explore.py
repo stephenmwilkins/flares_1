@@ -25,9 +25,13 @@ print(data['00/005_z010p000/Galaxy']['SFR']['SFR_10'].shape)
 print(data['00/005_z010p000/Galaxy']['SubhaloMass'].shape)
 print(data['00/005_z010p000/Galaxy']['Mstar_30'].shape)
 
-
+print(data['00/005_z010p000/Galaxy/BPASS/ChabrierIMF'].keys())
 print(data['00/005_z010p000/Galaxy/BPASS/ChabrierIMF/Luminosity'].keys()) # properties
 print(data['00/005_z010p000/Galaxy/BPASS/ChabrierIMF/Luminosity/DustModelI'].keys()) # properties
+
+print(data['00/005_z010p000/Galaxy/BPASS/ChabrierIMF/Flux//DustModelI/Euclid/NISP'].keys()) # properties
+print(data['00/005_z010p000/Galaxy/BPASS/ChabrierIMF/Flux//DustModelI/Euclid/VIS'].keys()) # properties
+
 
 # def get_name_shape(name, item):
 #     shape = ''
